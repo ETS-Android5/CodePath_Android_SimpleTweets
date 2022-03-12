@@ -14,6 +14,7 @@ class TweetsAdapter(val tweets:ArrayList<Tweet>): RecyclerView.Adapter<TweetsAda
         val ivProfileImage = itemView.findViewById<ImageView>(R.id.ivProfileImage)
         val tvUsername = itemView.findViewById<TextView>(R.id.tvUsername)
         val tvTweetBody = itemView.findViewById<TextView>(R.id.tvTweetBody)
+        val tvTimestamp = itemView.findViewById<TextView>(R.id.tvTimestamp)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TweetsAdapter.ViewHolder {
@@ -32,8 +33,9 @@ class TweetsAdapter(val tweets:ArrayList<Tweet>): RecyclerView.Adapter<TweetsAda
 
         holder.tvUsername.text = tweet.user?.name
         holder.tvTweetBody.text = tweet.body
+        holder.tvTimestamp.text = tweet.formattedTimestamp
 
-        Glide.with(holder.itemView).load(tweet.user?.publicImageUrl).into(holder.ivProfileImage)
+        Glide.with(holder.itemView).load(tweet.user?.publicImageUrl).circleCrop().into(holder.ivProfileImage)
     }
 
     override fun getItemCount(): Int {

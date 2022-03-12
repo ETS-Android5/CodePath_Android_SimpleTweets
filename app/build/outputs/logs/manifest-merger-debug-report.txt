@@ -16,6 +16,7 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\dneba\.gradle\caches
 MERGED from [androidx.recyclerview:recyclerview:1.2.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\9a3df6b161d24e6f86ccdbe28c862ee4\recyclerview-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\41da49da6e266d6604c21aa6ebe5b9e5\room-runtime-2.2.6\AndroidManifest.xml:17:1-31:12
 MERGED from [com.facebook.stetho:stetho:1.5.1] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\c3436a3fefd187e70950546d1227ade0\jetified-stetho-1.5.1\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\4595a40b0d2d1515a996eb2236b761ea\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\72c16493c5a96ca928f75035163c3adf\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\a550c53d40cb8efad7f831fb8ce96778\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.2.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\59f001f46e6b127e040a4e7d7cd72841\transition-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -30,6 +31,7 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\dneba\.gradle\caches\t
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\965b686595f2cd784176e3fa9536b0fa\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\aaa3c567a551eef32a57829c406559de\sqlite-framework-2.0.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\8439604be6cffa77b909447f9ee195d7\sqlite-2.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\1ad06503f87392efc3b75c2cd4057279\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\ab17a94b1afc958f2f49c3f0d2cda342\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\f1e78a93b5c4dbe39294dfa73d24a7d5\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.2.3] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\2a8fc348b12fb9f16c94b203671c0162\jetified-activity-1.2.3\AndroidManifest.xml:17:1-24:12
@@ -48,7 +50,6 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\dneba\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\13effd83d238871f03ab56503c83281c\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\8ef9d6a2c6b55abcd2cd8edc5de53dfb\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\d88b23564ece1e672574d9a86955ca7b\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\1ad06503f87392efc3b75c2cd4057279\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\fcaeaddc9c518ccd8090d592c1116cc6\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 INJECTED from C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:2:1-41:12
@@ -183,6 +184,8 @@ MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\dneba\.gradle\caches\tra
 MERGED from [androidx.room:room-runtime:2.2.6] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\41da49da6e266d6604c21aa6ebe5b9e5\room-runtime-2.2.6\AndroidManifest.xml:20:5-22:41
 MERGED from [com.facebook.stetho:stetho:1.5.1] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\c3436a3fefd187e70950546d1227ade0\jetified-stetho-1.5.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.stetho:stetho:1.5.1] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\c3436a3fefd187e70950546d1227ade0\jetified-stetho-1.5.1\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\4595a40b0d2d1515a996eb2236b761ea\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\4595a40b0d2d1515a996eb2236b761ea\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\72c16493c5a96ca928f75035163c3adf\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\72c16493c5a96ca928f75035163c3adf\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\a550c53d40cb8efad7f831fb8ce96778\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -211,6 +214,8 @@ MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\dneba\.gradle\cach
 MERGED from [androidx.sqlite:sqlite-framework:2.0.1] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\aaa3c567a551eef32a57829c406559de\sqlite-framework-2.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\8439604be6cffa77b909447f9ee195d7\sqlite-2.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.sqlite:sqlite:2.0.1] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\8439604be6cffa77b909447f9ee195d7\sqlite-2.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\1ad06503f87392efc3b75c2cd4057279\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\1ad06503f87392efc3b75c2cd4057279\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\ab17a94b1afc958f2f49c3f0d2cda342\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\ab17a94b1afc958f2f49c3f0d2cda342\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\f1e78a93b5c4dbe39294dfa73d24a7d5\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
@@ -247,8 +252,6 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\dneba\.gradle\cache
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\8ef9d6a2c6b55abcd2cd8edc5de53dfb\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\d88b23564ece1e672574d9a86955ca7b\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\d88b23564ece1e672574d9a86955ca7b\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\1ad06503f87392efc3b75c2cd4057279\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\1ad06503f87392efc3b75c2cd4057279\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\fcaeaddc9c518ccd8090d592c1116cc6\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\fcaeaddc9c518ccd8090d592c1116cc6\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 INJECTED from C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml
