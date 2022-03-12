@@ -39,7 +39,7 @@ GIF created with [ScreenToGif](https://www.screentogif.com/).
 
 ## Notes
 
-Had difficulty with relative timestamp. Will update when it is completed.
+Initially had difficulty with OAuth because I could not find permissions for my API key (current Twitter Developer portal layout is different than the one shown). Relative timestamp was easy to implement with the given timestamp parser. DetailActivity with hypermedia can be implemented relatively easily but I did not have time.
 
 ## Open-source libraries used
 
