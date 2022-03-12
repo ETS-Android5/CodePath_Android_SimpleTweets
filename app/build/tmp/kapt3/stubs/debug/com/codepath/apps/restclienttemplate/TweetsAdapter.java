@@ -41,10 +41,11 @@ public final class TweetsAdapter extends androidx.recyclerview.widget.RecyclerVi
     java.util.List<com.codepath.apps.restclienttemplate.models.Tweet> tweetList) {
     }
     
-    @kotlin.Metadata(mv = {1, 6, 0}, k = 1, d1 = {"\u0000\"\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0004\n\u0002\u0018\u0002\n\u0002\b\u0007\u0018\u00002\u00020\u0001B\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004R\u0019\u0010\u0005\u001a\n \u0007*\u0004\u0018\u00010\u00060\u0006\u00a2\u0006\b\n\u0000\u001a\u0004\b\b\u0010\tR\u0019\u0010\n\u001a\n \u0007*\u0004\u0018\u00010\u000b0\u000b\u00a2\u0006\b\n\u0000\u001a\u0004\b\f\u0010\rR\u0019\u0010\u000e\u001a\n \u0007*\u0004\u0018\u00010\u000b0\u000b\u00a2\u0006\b\n\u0000\u001a\u0004\b\u000f\u0010\rR\u0019\u0010\u0010\u001a\n \u0007*\u0004\u0018\u00010\u000b0\u000b\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0011\u0010\r\u00a8\u0006\u0012"}, d2 = {"Lcom/codepath/apps/restclienttemplate/TweetsAdapter$ViewHolder;", "Landroidx/recyclerview/widget/RecyclerView$ViewHolder;", "itemView", "Landroid/view/View;", "(Landroid/view/View;)V", "ivProfileImage", "Landroid/widget/ImageView;", "kotlin.jvm.PlatformType", "getIvProfileImage", "()Landroid/widget/ImageView;", "tvTimestamp", "Landroid/widget/TextView;", "getTvTimestamp", "()Landroid/widget/TextView;", "tvTweetBody", "getTvTweetBody", "tvUsername", "getTvUsername", "app_debug"})
+    @kotlin.Metadata(mv = {1, 6, 0}, k = 1, d1 = {"\u0000\"\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0004\n\u0002\u0018\u0002\n\u0002\b\t\u0018\u00002\u00020\u0001B\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004R\u0019\u0010\u0005\u001a\n \u0007*\u0004\u0018\u00010\u00060\u0006\u00a2\u0006\b\n\u0000\u001a\u0004\b\b\u0010\tR\u0019\u0010\n\u001a\n \u0007*\u0004\u0018\u00010\u000b0\u000b\u00a2\u0006\b\n\u0000\u001a\u0004\b\f\u0010\rR\u0019\u0010\u000e\u001a\n \u0007*\u0004\u0018\u00010\u000b0\u000b\u00a2\u0006\b\n\u0000\u001a\u0004\b\u000f\u0010\rR\u0019\u0010\u0010\u001a\n \u0007*\u0004\u0018\u00010\u000b0\u000b\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0011\u0010\rR\u0019\u0010\u0012\u001a\n \u0007*\u0004\u0018\u00010\u000b0\u000b\u00a2\u0006\b\n\u0000\u001a\u0004\b\u0013\u0010\r\u00a8\u0006\u0014"}, d2 = {"Lcom/codepath/apps/restclienttemplate/TweetsAdapter$ViewHolder;", "Landroidx/recyclerview/widget/RecyclerView$ViewHolder;", "itemView", "Landroid/view/View;", "(Landroid/view/View;)V", "ivProfileImage", "Landroid/widget/ImageView;", "kotlin.jvm.PlatformType", "getIvProfileImage", "()Landroid/widget/ImageView;", "tvScreenName", "Landroid/widget/TextView;", "getTvScreenName", "()Landroid/widget/TextView;", "tvTimestamp", "getTvTimestamp", "tvTweetBody", "getTvTweetBody", "tvUsername", "getTvUsername", "app_debug"})
     public static final class ViewHolder extends androidx.recyclerview.widget.RecyclerView.ViewHolder {
         private final android.widget.ImageView ivProfileImage = null;
         private final android.widget.TextView tvUsername = null;
+        private final android.widget.TextView tvScreenName = null;
         private final android.widget.TextView tvTweetBody = null;
         private final android.widget.TextView tvTimestamp = null;
         
@@ -58,6 +59,10 @@ public final class TweetsAdapter extends androidx.recyclerview.widget.RecyclerVi
         }
         
         public final android.widget.TextView getTvUsername() {
+            return null;
+        }
+        
+        public final android.widget.TextView getTvScreenName() {
             return null;
         }
         
