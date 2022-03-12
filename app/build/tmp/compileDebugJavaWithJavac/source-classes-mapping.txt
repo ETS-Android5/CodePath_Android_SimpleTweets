@@ -1,0 +1,8 @@
+com/codepath/apps/restclienttemplate/MyDatabase_Impl.java
+ com.codepath.apps.restclienttemplate.MyDatabase_Impl
+ com.codepath.apps.restclienttemplate.MyDatabase_Impl$1
+com/codepath/apps/restclienttemplate/BuildConfig.java
+ com.codepath.apps.restclienttemplate.BuildConfig
+com/codepath/apps/restclienttemplate/models/SampleModelDao_Impl.java
+ com.codepath.apps.restclienttemplate.models.SampleModelDao_Impl
+ com.codepath.apps.restclienttemplate.models.SampleModelDao_Impl$1
