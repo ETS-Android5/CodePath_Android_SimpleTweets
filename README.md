@@ -33,13 +33,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/DenxyChen/CodePath_Android_2022_Twitter/blob/master/misc/twitter-week-3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [ScreenToGif](https://www.screentogif.com/).
 
 ## Notes
 
-Had difficulty with relative timestamp. Will update when it is completed.
+Initially had difficulty with OAuth because I could not find permissions for my API key (current Twitter Developer portal layout is different than the one shown). Relative timestamp was easy to implement with the given timestamp parser. DetailActivity with hypermedia can be implemented relatively easily but I did not have time.
 
 ## Open-source libraries used
 
