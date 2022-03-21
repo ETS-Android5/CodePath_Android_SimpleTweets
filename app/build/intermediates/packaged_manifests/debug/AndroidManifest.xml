@@ -23,6 +23,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.RestClientTemplateKotlin" >
         <activity
+            android:name="com.codepath.apps.restclienttemplate.ComposeActivity"
+            android:exported="false" />
+        <activity
             android:name="com.codepath.apps.restclienttemplate.TimelineActivity"
             android:exported="false" />
         <activity

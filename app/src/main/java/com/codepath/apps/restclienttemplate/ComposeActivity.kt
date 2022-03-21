@@ -1,15 +1,23 @@
 package com.codepath.apps.restclienttemplate
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import com.codepath.apps.restclienttemplate.models.Tweet
+import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler
+import okhttp3.Headers
 
+private var TAG = "ComposeActivity"
 class ComposeActivity : AppCompatActivity() {
 
     lateinit var etCompose: EditText
     lateinit var btnTweet: Button
+
+    lateinit var client: TwitterClient
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,6 +25,8 @@ class ComposeActivity : AppCompatActivity() {
 
         etCompose = findViewById(R.id.etCompose)
         btnTweet = findViewById(R.id.btnTweet)
+
+        client = TwitterApplication.getRestClient(this)
 
         // Handle user's click on Tweet button
         btnTweet.setOnClickListener {
@@ -33,8 +43,31 @@ class ComposeActivity : AppCompatActivity() {
                 Toast.makeText(this, "Tweet is too long! Limit is 140 characters.", Toast.LENGTH_SHORT).show()
             }
             else {
-                // TODO: Make an API call to Twitter to publish tweet
-                Toast.makeText(this, tweetContent, Toast.LENGTH_SHORT).show()
+                // Make an API call to Twitter to publish Tweet
+                client.publishTweet(tweetContent, object: JsonHttpResponseHandler() {
+                    override fun onFailure(
+                        statusCode: Int,
+                        headers: Headers?,
+                        response: String?,
+                        throwable: Throwable?
+                    ) {
+                        Log.e(TAG, "Failed to publish Tweet", throwable)
+                    }
+
+                    override fun onSuccess(statusCode: Int, headers: Headers?, json: JSON) {
+                        // Send the Tweet back to TimelineActivity to show
+                        Log.i(TAG, "Successfully published Tweet")
+
+                        val tweet = Tweet.fromJson(json.jsonObject)
+
+                        val i = Intent()
+                        i.putExtra("tweet", tweet)
+                        setResult(RESULT_OK, i)
+                        finish()
+                    }
+
+                })
+
             }
         }
     }

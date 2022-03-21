@@ -18,7 +18,7 @@
 12-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:6:22-78
 13
 14    <application
-14-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:8:5-39:19
+14-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:8:5-42:19
 15        android:name="com.codepath.apps.restclienttemplate.TwitterApplication"
 15-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:9:9-43
 16        android:allowBackup="true"
@@ -39,58 +39,64 @@
 24-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:15:9-62
 25        <activity
 25-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:16:9-18:40
-26            android:name="com.codepath.apps.restclienttemplate.TimelineActivity"
-26-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:17:13-45
+26            android:name="com.codepath.apps.restclienttemplate.ComposeActivity"
+26-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:17:13-44
 27            android:exported="false" />
 27-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:18:13-37
 28        <activity
-28-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:19:9-38:20
-29            android:name="com.codepath.apps.restclienttemplate.LoginActivity"
-29-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:20:13-42
-30            android:label="@string/app_name"
-30-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:21:13-45
-31            android:theme="@style/AppTheme" >
-31-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:22:13-44
-32            <intent-filter>
-32-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:23:13-27:29
-33                <action android:name="android.intent.action.MAIN" />
-33-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:24:17-69
-33-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:24:25-66
-34
-35                <category android:name="android.intent.category.LAUNCHER" />
-35-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:26:17-77
-35-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:26:27-74
-36            </intent-filter>
-37            <intent-filter>
-37-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:28:13-37:29
-38                <action android:name="android.intent.action.VIEW" />
-38-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:29:17-69
-38-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:29:25-66
-39
-40                <category android:name="android.intent.category.DEFAULT" />
-40-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:31:17-76
-40-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:31:27-73
-41                <category android:name="android.intent.category.BROWSABLE" />
-41-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:32:17-78
-41-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:32:27-75
+28-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:19:9-21:40
+29            android:name="com.codepath.apps.restclienttemplate.TimelineActivity"
+29-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:20:13-45
+30            android:exported="false" />
+30-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:21:13-37
+31        <activity
+31-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:22:9-41:20
+32            android:name="com.codepath.apps.restclienttemplate.LoginActivity"
+32-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:23:13-42
+33            android:label="@string/app_name"
+33-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:24:13-45
+34            android:theme="@style/AppTheme" >
+34-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:25:13-44
+35            <intent-filter>
+35-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:26:13-30:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:27:17-69
+36-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:27:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:29:17-77
+38-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:29:27-74
+39            </intent-filter>
+40            <intent-filter>
+40-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:31:13-40:29
+41                <action android:name="android.intent.action.VIEW" />
+41-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:32:17-69
+41-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:32:25-66
 42
-43                <data
-43-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:34:17-36:62
-44                    android:host="@string/intent_host"
-44-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:35:21-55
-45                    android:scheme="@string/intent_scheme" />
-45-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:36:21-59
-46            </intent-filter>
-47        </activity>
-48
-49        <service
-49-->[androidx.room:room-runtime:2.2.6] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\41da49da6e266d6604c21aa6ebe5b9e5\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
-50            android:name="androidx.room.MultiInstanceInvalidationService"
-50-->[androidx.room:room-runtime:2.2.6] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\41da49da6e266d6604c21aa6ebe5b9e5\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
-51            android:directBootAware="true"
-51-->[androidx.room:room-runtime:2.2.6] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\41da49da6e266d6604c21aa6ebe5b9e5\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
-52            android:exported="false" />
-52-->[androidx.room:room-runtime:2.2.6] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\41da49da6e266d6604c21aa6ebe5b9e5\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
-53    </application>
-54
-55</manifest>
+43                <category android:name="android.intent.category.DEFAULT" />
+43-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:34:17-76
+43-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:34:27-73
+44                <category android:name="android.intent.category.BROWSABLE" />
+44-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:35:17-78
+44-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:35:27-75
+45
+46                <data
+46-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:37:17-39:62
+47                    android:host="@string/intent_host"
+47-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:38:21-55
+48                    android:scheme="@string/intent_scheme" />
+48-->C:\Users\dneba\Android\SimpleTweet\app\src\main\AndroidManifest.xml:39:21-59
+49            </intent-filter>
+50        </activity>
+51
+52        <service
+52-->[androidx.room:room-runtime:2.2.6] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\41da49da6e266d6604c21aa6ebe5b9e5\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
+53            android:name="androidx.room.MultiInstanceInvalidationService"
+53-->[androidx.room:room-runtime:2.2.6] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\41da49da6e266d6604c21aa6ebe5b9e5\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
+54            android:directBootAware="true"
+54-->[androidx.room:room-runtime:2.2.6] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\41da49da6e266d6604c21aa6ebe5b9e5\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+55            android:exported="false" />
+55-->[androidx.room:room-runtime:2.2.6] C:\Users\dneba\.gradle\caches\transforms-2\files-2.1\41da49da6e266d6604c21aa6ebe5b9e5\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+56    </application>
+57
+58</manifest>
