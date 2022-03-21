@@ -3,9 +3,12 @@ package com.codepath.apps.restclienttemplate
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import com.codepath.apps.restclienttemplate.models.Tweet
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler
@@ -16,6 +19,7 @@ class ComposeActivity : AppCompatActivity() {
 
     lateinit var etCompose: EditText
     lateinit var btnTweet: Button
+    lateinit var tvCount: TextView
 
     lateinit var client: TwitterClient
 
@@ -25,8 +29,22 @@ class ComposeActivity : AppCompatActivity() {
 
         etCompose = findViewById(R.id.etCompose)
         btnTweet = findViewById(R.id.btnTweet)
+        tvCount = findViewById(R.id.tvCount)
 
         client = TwitterApplication.getRestClient(this)
+
+        etCompose.addTextChangedListener(object: TextWatcher {
+            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
+            }
+
+            override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
+                tvCount.setText((280 - s.toString().length).toString() + " characters remaining")
+            }
+
+            override fun afterTextChanged(p0: Editable?) {
+            }
+
+        })
 
         // Handle user's click on Tweet button
         btnTweet.setOnClickListener {
@@ -39,7 +57,7 @@ class ComposeActivity : AppCompatActivity() {
             }
 
             // 2. Verify Tweet is under character count
-            else if (tweetContent.length > 140) {
+            else if (tweetContent.length > 280) {
                 Toast.makeText(this, "Tweet is too long! Limit is 140 characters.", Toast.LENGTH_SHORT).show()
             }
             else {
